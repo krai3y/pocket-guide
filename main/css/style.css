@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+@media (max-width: 1400px) {
+    .card-place{
+        height: 230px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .card-place{
+        height: 205px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .card-place{
+        height: 240px !important;
+    }
+    .miu{
+        order: -1;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-place{
+        height: 275px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .text-about{
+        font-size: 20px !important;
+    }
+    .marg-container{
+        margin-top: 40px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .card-place{
+        height: 230px !important;
+    }
+    .text-h{
+        font-size: 30px !important;
+    }
+}
+
+html, body{
+    background-color: #FAFAFA !important;
+    font-family: Comfortaa;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    height: calc(100vh - 119px);
+}
+
+.content-wrap {
+    min-height: calc(100% - 294px);
+}
+
+.marg-container{
+    margin-top: 100px;
+}
+
+.shadow-footer{
+    box-shadow: .5rem 0 1rem rgba(0, 0, 0, .15) !important;
+}
+
+.text-h{
+    font-size: 40px;
+    font-weight: bold;
+    color: #112B3C;
+    line-height: 150%;
+}
+
+.text-p {
+    font-size: 20px;
+    color: #808080;
+    line-height: 140%;
+}
+
+.number-about{
+    font-size: 40px;
+    font-weight: bold;
+    color: #006DD1;
+}
+
+.text-about{
+    font-size: 13px;
+    color: #808080;
+    line-height: 140%;
+}
+
+.text-rec {
+    font-size: 20px;
+    font-weight: bold;
+    color: #112B3C;
+    line-height: 130%;
+}
+
+.btn-index {
+    color: #fff !important;
+    background-color: #006DD1 !important;
+}
+
+.btn-index:hover {
+    color: #fff !important;
+    background-color: #10589c !important;
+}
+
+.color-blue {
+    color: #006DD1 !important;
+}
+
+.card-cursor {
+    cursor: pointer;
+}
+
+.card{
+    border-radius: 20px !important;
+}
+
+.card-img-top {
+    border-top-left-radius: 18px !important;
+    border-top-right-radius: 18px !important;
+}
+
+.card-place{
+    height: 260px;
+    display: block !important;
+}
+
+.card:hover{
+    border: 2px solid #006DD1;
+    .card-title{
+        color: #006DD1;
+    }
+    .icon{
+        color: #006DD1;
+      }
+    .text-rec{
+        color: #006DD1;
+    }
+    .card-img-top {
+        border-top-left-radius: 17px !important;
+        border-top-right-radius: 17px !important;
+    }
+}
+
+.routecard{
+    border: 2px solid #006DD1;
+    .card-title{
+        color: #006DD1;
+    }
+    .icon{
+        color: #006DD1;
+      }
+}
+
+.h-place {
+    font-size: 18px;
+    font-weight: bold;
+    color: #112B3C;
+    line-height: 130%;
+}
+
+.img-card-detail {
+    max-height: 600px;
+    max-width: 100%;
+}
+
+.marg-top-20{
+    margin-top: 20px !important;
+}
+
+.active {
+    text-decoration: underline !important;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+}
+
+.navbar-toggler{
+    border: 0;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.str-404{
+    font-size: 80px;
+    font-weight: bold;
+    color: #112B3C;
+    line-height: 150%;
+}
+
+.br-14{
+    border-radius: 14px;
+}
+
+.toggle-button {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1; /* Это добавлено, чтобы кнопка была поверх всех элементов */
+  }
+  
+  .toggle-button .icon {
+    font-size: 20px;
+  }
+
+  .icon:active{
+    color: #006DD1;
+  }
+.set-place{
+    background-color: #FAFAFA !important; 
+}
+
+.set-place:after{
+    content: none !important;
+}
+
+.border-color{
+    border-color: rgba(0, 0, 0, 0.175);;
+}
